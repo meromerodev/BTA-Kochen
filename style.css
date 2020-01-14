@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    
+
+}
+
+header{background-color: white;}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+font-weight: bold; text-transform: uppercase;
+}
+
+#doc-header{
+    background-color: rgb(229, 178, 23);
+}
+.rot{background-color: red;
+}
