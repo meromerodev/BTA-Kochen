@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     
@@ -19,8 +19,22 @@ padding: 0;
 font-weight: bold; text-transform: uppercase;
 }
 
-#doc-header{
-    background-color: rgb(229, 178, 23);
+#menu{
+    display: none;
 }
-.rot{background-color: red;
+
+@media (min-width: 800px){
+
+    #menu{ display:block;
+    }
+
+    #burger{display: none;}
+
+    .box{
+        display: flex;
+    }
+    .box li{
+        margin: 8px;
+
+    } 
 }
