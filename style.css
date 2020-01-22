@@ -65,28 +65,82 @@ font-weight: bold; text-transform: uppercase;
     box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.4);
     display:inline-block;
     margin-top: 1rem;
+    transition: 0.4s;
 }
+
+.button:hover{
+    background-color: #374a67; 
+    color: white;
+}
+
+.button-blue {
+    background-color: #374a67;
+    color: white;
+    display: block;
+    margin: 0rem,1rem,1rem,1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button-blue:hover{
+    background-color:white;
+    color:  #374a67;
+     }
 
 .card{
     border: 1px solid lightgrey;
     box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.4);
     text-align: center;
+    margin: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .card img {width: 100%;}
 
+.card p{margin: 1rem;}
+
+#rezepte h2{ text-align: center;}
+
+#newsletter{
+    background-color: rgb(2, 2, 63) ;
+    color: white;
+    background-position: center;
+    text-align: center;
+    padding: 3rem, 1rem;
+    
+    
+  }
+
+  input{
+      padding: 1rem;
+      border-radius: 4px;
+  }   
+
+  #newsletter .button{
+    margin-left:1rem;
+    padding: 1rem; 
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.4);
+    display:inline-block;
+    
+  }
+
 @media (min-width: 800px){
 
-    #menu{ display:block;
-    }
+    #menu{display:block;}
 
     #burger{display: none;}
 
-    .box{
-        display: flex;
-    }
-    .box li{
-        margin: 8px;
+    .box{display: flex ;}
+    
+    .box li{margin: 8px;} 
 
-    } 
+    .row {display: flex ;}
+
+    #doc-footer{
+        display: flex;
+        justify-content: space-between;
+    }
 }
