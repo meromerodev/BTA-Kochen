@@ -158,8 +158,14 @@ font-weight: bold; text-transform: uppercase;
 
     #doc-footer{
         display: flex;
-        justify-content: space-between;
-    }
+        justify-content: space-between;  }
+
+#legal ul {
+            
+            display: flex;
+        }
+    
+    
     #legal li {
         margin: 1rem; 
         display: flex;
