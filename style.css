@@ -108,7 +108,7 @@ font-weight: bold; text-transform: uppercase;
     color: white;
     background-position: center;
     text-align: center;
-    padding: 3rem, 1rem;
+    padding: 3rem 1rem;
     
     
   }
@@ -127,6 +127,23 @@ font-weight: bold; text-transform: uppercase;
     
   }
 
+  #social ul {
+      display: flex;
+      font-size: 2rem;
+      justify-content: center;
+    }
+  #social li {
+       margin: 1rem;}
+
+#legal ul {
+    text-align: center; 
+    text-transform: capitalize;}
+
+#doc-footer {padding: 3rem 1rem;
+
+}
+ 
+
 @media (min-width: 800px){
 
     #menu{display:block;}
@@ -143,4 +160,9 @@ font-weight: bold; text-transform: uppercase;
         display: flex;
         justify-content: space-between;
     }
+    #legal li {
+        margin: 1rem; 
+        display: flex;
+    }
+
 }
